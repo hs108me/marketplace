@@ -30,9 +30,9 @@ marketplace/
 pip install -r requirements.txt
 3. Edit database connection settings in config.py
 4. Run full data load (once):
-python scripts/input_db.py
+input_db.py
 5. Run daily update (already automated via cron):
-python scripts/main.py
+main.py
 
 ## Metabase Sales, Customers & Products Overview Dashboard
 
